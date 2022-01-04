@@ -10,7 +10,20 @@ body{
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(#3C0466 , #28213B);
+    animation: fundo 5s ease-in-out infinite;
+}
 
+@keyframes fundo{
+    30%{
+        background: linear-gradient(to right, #ED304A, #920216);
+    }
+    75%{
+        background: linear-gradient(#4F43E3, #0E057F);
+    }
+    100%{
+        background: linear-gradient(#833ab4, #fd1d1d);
+    }
+    
 }
 
 .relogio{
@@ -26,8 +39,22 @@ body{
     box-shadow: 0 -15px 15px rgba(175, 119, 119, 0.05),
                 inset 0 -15px 15px rgba(255, 255, 255, 0.05),
                 0 15px 15px rgba(0, 0, 0, 0.3),
-                inset 0 15px 15px rgba(0, 0, 0, 0.3);            
+                inset 0 15px 15px rgba(0, 0, 0, 0.3); 
+    animation: circulo 5s ease-in-out infinite;           
 }
+
+@keyframes circulo{
+    30%{
+        border-color: #ED304A;
+    }
+    75%{
+        border-color: #4F43E3;
+    }
+    100%{
+        border-color: #833ab4;
+    }
+}
+
 
 .relogio:before{
     content: '';

@@ -5,9 +5,7 @@
 
 <p>Inspiração <a href="https://www.youtube.com/watch?v=weZFfrjF-k4">Javascript Clock</a>.
 <p>Desenvolvi este projeto para melhorar minha afinidade com CSS e nada melhor do que brincar um pouquinho. Além disso praticar o contato com o Javascript.
-
-<h2> 💻 Versão Desktop </h2>
-<img src="login2-foto.png" width="500">
+<p>Projeto Github: https://github.com/thaay93/rel-gio
 
 <br>
 
